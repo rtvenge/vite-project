@@ -1,5 +1,3 @@
-import {foo} from 'bar';
-
 export async function getVideo() {
   const avStream = await navigator.mediaDevices.getUserMedia({
     audio: true,
